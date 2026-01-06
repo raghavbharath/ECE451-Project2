@@ -1,0 +1,308 @@
+<LINE SIZE>_<# ASSOC>_<TECH NODE>
+
+64_4_22:
+    Total cache size (bytes): 32768
+    Number of banks: 1
+    Associativity: 4
+    Block size (bytes): 64
+    Read/write Ports: 1
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.453606
+    Cycle time (ns):  1.37766
+    Total dynamic read energy per access (nJ): 0.0338659
+    Total dynamic write energy per access (nJ): 0.0333791
+    Total leakage power of a bank (mW): 11.1161
+    Total gate leakage power of a bank (mW): 0.0234611
+    Cache height x width (mm): 0.100492 x 0.582689
+
+    Best Ndwl : 2
+    Best Ndbl : 2
+    Best Nspd : 1
+    Best Ndcm : 1
+    Best Ndsam L1 : 4
+    Best Ndsam L2 : 2
+
+    Best Ntwl : 2
+    Best Ntbl : 2
+    Best Ntspd : 1
+    Best Ntcm : 1
+    Best Ntsam L1 : 2
+    Best Ntsam L2 : 1
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+    Tag array, H-tree wire type: Global wires with 30% delay penalty
+
+64_2_22:
+    Total cache size (bytes): 32768
+    Number of banks: 1
+    Associativity: 2
+    Block size (bytes): 64
+    Read/write Ports: 1
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.256185
+    Cycle time (ns):  0.465586
+    Total dynamic read energy per access (nJ): 0.0188471
+    Total dynamic write energy per access (nJ): 0.0242715
+    Total leakage power of a bank (mW): 10.8994
+    Total gate leakage power of a bank (mW): 0.0226119
+    Cache height x width (mm): 0.14011 x 0.316574
+
+    Best Ndwl : 2
+    Best Ndbl : 2
+    Best Nspd : 1
+    Best Ndcm : 2
+    Best Ndsam L1 : 2
+    Best Ndsam L2 : 1
+
+    Best Ntwl : 2
+    Best Ntbl : 2
+    Best Ntspd : 2
+    Best Ntcm : 1
+    Best Ntsam L1 : 4
+    Best Ntsam L2 : 1
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+    Tag array, H-tree wire type: Global wires with 30% delay penalty
+
+64_1_22:
+    Total cache size (bytes): 32768
+    Number of banks: 1
+    Associativity: direct mapped
+    Block size (bytes): 64
+    Read/write Ports: 1
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.227315
+    Cycle time (ns):  0.245104
+    Total dynamic read energy per access (nJ): 0.0116972
+    Total dynamic write energy per access (nJ): 0.0266358
+    Total leakage power of a bank (mW): 11.4094
+    Total gate leakage power of a bank (mW): 0.024043
+    Cache height x width (mm): 0.221765 x 0.182613
+
+    Best Ndwl : 2
+    Best Ndbl : 2
+    Best Nspd : 1
+    Best Ndcm : 2
+    Best Ndsam L1 : 1
+    Best Ndsam L2 : 1
+
+    Best Ntwl : 2
+    Best Ntbl : 2
+    Best Ntspd : 4
+    Best Ntcm : 1
+    Best Ntsam L1 : 8
+    Best Ntsam L2 : 1
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+    Tag array, H-tree wire type: Global wires with 30% delay penalty
+
+128_4_22:
+    Total cache size (bytes): 32768
+    Number of banks: 1
+    Associativity: 4
+    Block size (bytes): 128
+    Read/write Ports: 1
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.453606
+    Cycle time (ns):  1.37766
+    Total dynamic read energy per access (nJ): 0.0337192
+    Total dynamic write energy per access (nJ): 0.0327246
+    Total leakage power of a bank (mW): 10.704
+    Total gate leakage power of a bank (mW): 0.0224155
+    Cache height x width (mm): 0.100492 x 0.582686
+
+    Best Ndwl : 2
+    Best Ndbl : 2
+    Best Nspd : 0.5
+    Best Ndcm : 1
+    Best Ndsam L1 : 4
+    Best Ndsam L2 : 2
+
+    Best Ntwl : 2
+    Best Ntbl : 2
+    Best Ntspd : 1
+    Best Ntcm : 1
+    Best Ntsam L1 : 2
+    Best Ntsam L2 : 1
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+    Tag array, H-tree wire type: Global wires with 30% delay penalty
+
+128_2_22:
+    Total cache size (bytes): 32768
+    Number of banks: 1
+    Associativity: 2
+    Block size (bytes): 128
+    Read/write Ports: 1
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.256185
+    Cycle time (ns):  0.465586
+    Total dynamic read energy per access (nJ): 0.0187037
+    Total dynamic write energy per access (nJ): 0.0239426
+    Total leakage power of a bank (mW): 10.4967
+    Total gate leakage power of a bank (mW): 0.0215861
+    Cache height x width (mm): 0.14011 x 0.316623
+
+    Best Ndwl : 2
+    Best Ndbl : 2
+    Best Nspd : 0.5
+    Best Ndcm : 2
+    Best Ndsam L1 : 2
+    Best Ndsam L2 : 1
+
+    Best Ntwl : 2
+    Best Ntbl : 2
+    Best Ntspd : 2
+    Best Ntcm : 1
+    Best Ntsam L1 : 4
+    Best Ntsam L2 : 1
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+    Tag array, H-tree wire type: Global wires with 30% delay penalty
+
+128_1_22:
+    Total cache size (bytes): 32768
+    Number of banks: 1
+    Associativity: direct mapped
+    Block size (bytes): 128
+    Read/write Ports: 1
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.227315
+    Cycle time (ns):  0.245104
+    Total dynamic read energy per access (nJ): 0.0115588
+    Total dynamic write energy per access (nJ): 0.0264677
+    Total leakage power of a bank (mW): 11.0209
+    Total gate leakage power of a bank (mW): 0.023047
+    Cache height x width (mm): 0.221765 x 0.182744
+
+    Best Ndwl : 2
+    Best Ndbl : 2
+    Best Nspd : 0.5
+    Best Ndcm : 2
+    Best Ndsam L1 : 1
+    Best Ndsam L2 : 1
+
+    Best Ntwl : 2
+    Best Ntbl : 2
+    Best Ntspd : 4
+    Best Ntcm : 1
+    Best Ntsam L1 : 8
+    Best Ntsam L2 : 1
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+    Tag array, H-tree wire type: Global wires with 30% delay penalty
+
+256_4_22:
+    Total cache size (bytes): 32768
+    Number of banks: 1
+    Associativity: 4
+    Block size (bytes): 256
+    Read/write Ports: 1
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.453606
+    Cycle time (ns):  1.37766
+    Total dynamic read energy per access (nJ): 0.0336575
+    Total dynamic write energy per access (nJ): 0.032409
+    Total leakage power of a bank (mW): 10.4973
+    Total gate leakage power of a bank (mW): 0.0218902
+    Cache height x width (mm): 0.100492 x 0.582647
+
+    Best Ndwl : 2
+    Best Ndbl : 2
+    Best Nspd : 0.25
+    Best Ndcm : 1
+    Best Ndsam L1 : 4
+    Best Ndsam L2 : 2
+
+    Best Ntwl : 2
+    Best Ntbl : 2
+    Best Ntspd : 1
+    Best Ntcm : 1
+    Best Ntsam L1 : 2
+    Best Ntsam L2 : 1
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+    Tag array, H-tree wire type: Global wires with 30% delay penalty
+
+256_2_22:
+    Total cache size (bytes): 32768
+    Number of banks: 1
+    Associativity: 2
+    Block size (bytes): 256
+    Read/write Ports: 1
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.256185
+    Cycle time (ns):  0.465586
+    Total dynamic read energy per access (nJ): 0.0186437
+    Total dynamic write energy per access (nJ): 0.0237898
+    Total leakage power of a bank (mW): 10.2948
+    Total gate leakage power of a bank (mW): 0.0210708
+    Cache height x width (mm): 0.14011 x 0.316657
+
+    Best Ndwl : 2
+    Best Ndbl : 2
+    Best Nspd : 0.25
+    Best Ndcm : 2
+    Best Ndsam L1 : 2
+    Best Ndsam L2 : 1
+
+    Best Ntwl : 2
+    Best Ntbl : 2
+    Best Ntspd : 2
+    Best Ntcm : 1
+    Best Ntsam L1 : 4
+    Best Ntsam L2 : 1
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+    Tag array, H-tree wire type: Global wires with 30% delay penalty
+
+256_1_22:
+    Total cache size (bytes): 32768
+    Number of banks: 1
+    Associativity: direct mapped
+    Block size (bytes): 256
+    Read/write Ports: 1
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.227315
+    Cycle time (ns):  0.245104
+    Total dynamic read energy per access (nJ): 0.0115012
+    Total dynamic write energy per access (nJ): 0.0263953
+    Total leakage power of a bank (mW): 10.8261
+    Total gate leakage power of a bank (mW): 0.0225466
+    Cache height x width (mm): 0.221765 x 0.182892
+
+    Best Ndwl : 2
+    Best Ndbl : 2
+    Best Nspd : 0.25
+    Best Ndcm : 2
+    Best Ndsam L1 : 1
+    Best Ndsam L2 : 1
+
+    Best Ntwl : 2
+    Best Ntbl : 2
+    Best Ntspd : 4
+    Best Ntcm : 1
+    Best Ntsam L1 : 8
+    Best Ntsam L2 : 1
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+    Tag array, H-tree wire type: Global wires with 30% delay penalty
+
