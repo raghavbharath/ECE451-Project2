@@ -2,14 +2,16 @@
 *.cpp linguist-language=C++
 *.h linguist-language=C++
 
-# Ignore most assembly (generated / verbose)
-*.s linguist-documentation
-*.S linguist-documentation
+# Ignore generated / verbose assembly only
+*dump*.s linguist-generated
+*objdump*.s linguist-generated
+*output*.s linguist-generated
 
-# Explicitly keep representative assembly
+# Keep representative assembly
 daxpy*.s linguist-language=Assembly
+*.S linguist-language=Assembly
 
-# Ignore notebooks dominating stats
+# Jupyter notebooks are supporting analysis
 *.ipynb linguist-documentation
 
 # Reports and figures
