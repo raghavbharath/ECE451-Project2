@@ -1,19 +1,25 @@
-# Treat reports and documentation as non-code
+# Core source language
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+
+# Ignore most assembly (generated / verbose)
+*.s linguist-documentation
+*.S linguist-documentation
+
+# Explicitly keep representative assembly
+daxpy*.s linguist-language=Assembly
+
+# Ignore notebooks dominating stats
+*.ipynb linguist-documentation
+
+# Reports and figures
 *.docx linguist-documentation
 *.pdf linguist-documentation
 *.bib linguist-documentation
 *.png linguist-documentation
 
-# Ignore simulation outputs and configs
+# Simulation outputs and configs
 *.txt linguist-generated
 *.ini linguist-generated
 *.json linguist-generated
 *.cfg linguist-generated
-
-# Ignore all assembly variants
-*.S linguist-generated
-*.asm linguist-generated
-*.inc linguist-generated
-
-# Ignore Jupyter notebooks in language stats
-*.ipynb linguist-documentation
