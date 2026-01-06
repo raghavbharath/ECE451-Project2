@@ -9,3 +9,5 @@
 *.ini linguist-generated
 *.json linguist-generated
 *.cfg linguist-generated
+
+*.s linguist-generated
