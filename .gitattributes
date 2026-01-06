@@ -1,0 +1,11 @@
+# Treat reports and documentation as non-code
+*.docx linguist-documentation
+*.pdf linguist-documentation
+*.bib linguist-documentation
+*.png linguist-documentation
+
+# Ignore simulation outputs and configs
+*.txt linguist-generated
+*.ini linguist-generated
+*.json linguist-generated
+*.cfg linguist-generated
