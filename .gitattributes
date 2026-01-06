@@ -2,12 +2,8 @@
 *.cpp linguist-language=C++
 *.h linguist-language=C++
 
-# Ignore all assembly by default
-*.s linguist-documentation
-*.S linguist-documentation
-
-# Explicitly allow only DAXPY assembly files (any location under src code)
-src/**/daxpy_fragment.s linguist-language=Assembly
+# Ignore daxpy assembly by default
+daxpy.s linguist-documentation
 
 # Ignore notebooks dominating stats
 *.ipynb linguist-documentation
