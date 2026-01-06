@@ -10,4 +10,8 @@
 *.json linguist-generated
 *.cfg linguist-generated
 
+# Ignore all assembly variants
 *.s linguist-generated
+*.S linguist-generated
+*.asm linguist-generated
+*.inc linguist-generated
