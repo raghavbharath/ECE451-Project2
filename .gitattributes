@@ -2,16 +2,14 @@
 *.cpp linguist-language=C++
 *.h linguist-language=C++
 
-# Ignore generated / verbose assembly only
-*dump*.s linguist-generated
-*objdump*.s linguist-generated
-*output*.s linguist-generated
+# Ignore all assembly by default
+*.s linguist-documentation
+*.S linguist-documentation
 
-# Keep representative assembly
-daxpy*.s linguist-language=Assembly
-*.S linguist-language=Assembly
+# Explicitly allow only DAXPY assembly files (any location under src code)
+src/**/daxpy_fragment.s linguist-language=Assembly
 
-# Jupyter notebooks are supporting analysis
+# Ignore notebooks dominating stats
 *.ipynb linguist-documentation
 
 # Reports and figures
